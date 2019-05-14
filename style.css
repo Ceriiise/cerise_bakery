@@ -1,0 +1,122 @@
+h3 {
+  font-family: 'Karla', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+/*BANNER*/
+.banner {
+  /*background: url('../images/banner.jpg'), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));*/
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+
+/*HISTORY*/
+.history {
+  height: 100vh;
+}
+
+.history-infos {
+  width: 500px;
+}
+
+.history img{
+  width: 430px;
+}
+
+/*INFOS*/
+.infos {
+  height: calc(100vh - 40px);
+}
+
+.infos-details {
+  width: 100vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a a b c"
+    "a a d e"
+    "f g h h";
+}
+
+.item_1 {
+  grid-area: a;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/table.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.item_2 {
+  grid-area: b;
+  width: 100%;
+}
+
+.item_3 {
+  grid-area: c;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/ice-coffee.jpeg');
+  background-size: cover;
+  width: 100%;
+}
+
+.item_4 {
+  grid-area: d;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/cookies.jpeg');
+  background-size: cover;
+  width: 100%;
+}
+
+.item_5 {
+  grid-area: g;
+  width: 100%;
+}
+
+.item_5 p{
+  margin-bottom: 4px;
+}
+
+.item_6 {
+  grid-area: f;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/carrot-cake.jpeg');
+  background-size: cover;
+  width: 100%;
+}
+
+.item_7 {
+  grid-area: h;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/brownie.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.item_8 {
+  grid-area: e;
+  width: 100%;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: rgb(225, 231, 234);
+  height: 40px;
+}
+
+.footer p{
+  font-size: 10px;
+  margin: 0;
+}
