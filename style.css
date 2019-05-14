@@ -56,7 +56,7 @@ p {
 
 .item_1 {
   grid-area: a;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/table.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/table.jpeg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -69,14 +69,14 @@ p {
 
 .item_3 {
   grid-area: c;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/ice-coffee.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/ice-coffee.jpeg');
   background-size: cover;
   width: 100%;
 }
 
 .item_4 {
   grid-area: d;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/cookies.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/cookies.jpeg');
   background-size: cover;
   width: 100%;
 }
@@ -92,14 +92,14 @@ p {
 
 .item_6 {
   grid-area: f;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/carrot-cake.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/carrot-cake.jpeg');
   background-size: cover;
   width: 100%;
 }
 
 .item_7 {
   grid-area: h;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/images/brownie.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/brownie.jpeg');
   background-size: cover;
   background-position: center;
   width: 100%;
