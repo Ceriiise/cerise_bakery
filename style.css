@@ -139,7 +139,7 @@ p {
   }
 }
 
-@media(max-width: 576px) {
+@media(max-width: 768px) {
   .infos-details {
     display: grid;
     grid-template-columns: 1fr;
