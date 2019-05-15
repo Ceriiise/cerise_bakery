@@ -48,7 +48,7 @@ p {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(245px, auto));
   grid-template-areas:
     "a a b c"
     "a a d e"
@@ -60,31 +60,26 @@ p {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/table.jpeg');
   background-size: cover;
   background-position: center;
-  width: 100%;
 }
 
 .item_2 {
   grid-area: b;
-  width: 100%;
 }
 
 .item_3 {
   grid-area: c;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/ice-coffee.jpeg');
   background-size: cover;
-  width: 100%;
 }
 
 .item_4 {
   grid-area: d;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/cookies.jpeg');
   background-size: cover;
-  width: 100%;
 }
 
 .item_5 {
   grid-area: g;
-  width: 100%;
 }
 
 .item_5 p{
@@ -95,7 +90,6 @@ p {
   grid-area: f;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/carrot-cake.jpeg');
   background-size: cover;
-  width: 100%;
 }
 
 .item_7 {
@@ -103,12 +97,10 @@ p {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/brownie.jpeg');
   background-size: cover;
   background-position: center;
-  width: 100%;
 }
 
 .item_8 {
   grid-area: e;
-  width: 100%;
 }
 
 
@@ -127,7 +119,7 @@ p {
   .infos-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(7, minmax(100px, auto));
+    grid-template-rows: repeat(7, minmax(250px, auto));
     grid-template-areas:
       "a a"
       "a a"
@@ -143,7 +135,7 @@ p {
   .infos-details {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, minmax(100px, auto));
+    grid-template-rows: repeat(8, minmax(400px, auto));
     grid-template-areas:
       "a"
       "b"
