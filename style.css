@@ -115,6 +115,16 @@ p {
   margin: 0;
 }
 
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: black;
+}
+
 @media(max-width: 992px) {
   .infos-details {
     display: grid;
@@ -135,12 +145,11 @@ p {
   .infos-details {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, minmax(400px, auto));
+    grid-template-rows: repeat(7, minmax(400px, auto));
     grid-template-areas:
       "a"
       "b"
       "c"
-      "f"
       "g"
       "d"
       "e"
